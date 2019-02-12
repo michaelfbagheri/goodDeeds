@@ -23,7 +23,7 @@ class Main extends Component {
     };
 
     this.reactS3config = {
-      bucketName: 'gooddeedsimages',
+      bucketName: 'gooddeeds-new',
       region: 'us-east-1',
       accessKeyId: config.awsKey,
       secretAccessKey: config.awsSecret
@@ -48,7 +48,7 @@ class Main extends Component {
     this.setState({
       isModalOpen: false
     });
-    
+
   }
 
   handleInputChange(event) {
@@ -72,7 +72,7 @@ class Main extends Component {
         userInfo.imageurl = res.location;
         console.log('res.location after returning from uploadHandler promise' + res.location);
         console.log('userInfo before the state is set' + userInfo);
-        this.setState({ 
+        this.setState({
           userInfo,
           isModalOpen: ''
         });

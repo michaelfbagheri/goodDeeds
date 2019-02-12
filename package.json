@@ -1,5 +1,5 @@
 {
-  "name": "gooddeeds",
+  "name": "gooddeeds-forked",
   "version": "1.0.0",
   "description": "This app aims to promote good deeds - direct, person-to-person acts of kindness, service, or financial assistance - for people who live in low-income neighborhoods. The idea began as a way to connect people in low-income neighborhoods with service providers who were willing to donate home repair services, but our group quickly saw its potential to match users with a much wider variety of personal and professional services.",
   "main": "server.js",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enigmatic-agent-scully/goodDeeds.git"
+    "url": "git+https://github.com/michaelfbagheri/goodDeeds-Mike"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/enigmatic-agent-scully/goodDeeds/issues"
+    "url": "https://github.com/michaelfbagheri/goodDeeds-Mike/issues"
   },
-  "homepage": "https://github.com/enigmatic-agent-scully/goodDeeds#readme",
+  "homepage": "https://github.com/michaelfbagheri/goodDeeds-Mike#readme",
   "dependencies": {
     "axios": "^0.16.2",
     "bcrypt-nodejs": "0.0.3",

@@ -15,7 +15,7 @@ const needSeed = [
     resolved: "false",
     lat: 33.7789889,
     lng: -84.347168,
-    imageurl: "https://s3.amazonaws.com/gooddeedsimages/test-image.jpg"
+    imageurl: "https://s3.amazonaws.com/gooddeeds-new/FriendFinder.PNG"
   },
   {
     category: "Cleaning Up",
@@ -23,7 +23,7 @@ const needSeed = [
     description: "My place is a mess!  Please help.",
     lat: 33.763382,
     lng: -84.3951098,
-    imageurl: "https://gooddeedsimages.s3.amazonaws.com/messyhouse.jpg"
+    imageurl: "https://s3.amazonaws.com/gooddeeds-new/FriendFinder.PNG"
   }
 ];
 

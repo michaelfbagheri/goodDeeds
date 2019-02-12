@@ -77,7 +77,7 @@ class NeedView extends Component {
         <Col s={12} m={6}>
           {/* <h4 className='category'>{this.props.category}</h4> */}
 
-          <Col className='category-icon's={12} m={2}>
+          <Col className='category-icon' s={12} m={2}>
             {this.state.gettingAround ? (
               <Icon medium>directions_car</Icon>
             ) : null}
@@ -105,7 +105,7 @@ class NeedView extends Component {
 
           </Col>
         </Col>
-        
+
         <Col s={12} m={6}>
           <div>
             <img src={!this.props.imageurl ? 'http://vollrath.com/ClientCss/images/VollrathImages/No_Image_Available.jpg' : this.props.imageurl} alt='need' />            <Row>
@@ -114,7 +114,7 @@ class NeedView extends Component {
                   {this.props.resolved ? (
                     <div>
                       <Row>
-                        <Col  className="needview-button-divs" s={10} l={9}>
+                        <Col className="needview-button-divs" s={10} l={9}>
                           <Button
                             className='needview-button'
                             key={this.props.key}
@@ -123,7 +123,7 @@ class NeedView extends Component {
                           >
                             Mark Unresolved
                           </Button>
-                        </Col>                   
+                        </Col>
                         <Col s={2} l={2}>
                           <span className="delete-icon"
                             key={this.props.key}
@@ -166,7 +166,7 @@ class NeedView extends Component {
                         <div s={12} l={12}>
                           {/* <Row> */}
                           <Chip>
-                            <img src='https://gooddeedsimages.s3.amazonaws.com/goodsamaritin.PNG' alt='good samaritin badge' />
+                            <img src='https://s3.amazonaws.com/gooddeeds-new/goodsamaritin.PNG' alt='good samaritin badge' />
                             {helper.userName} has offered to help.
                           </Chip>
                           {/* </Row> */}

@@ -29,7 +29,7 @@ class Login extends Component {
     });
 
     this.reactS3config = {
-      bucketName: 'gooddeedsimages',
+      bucketName: 'gooddeeds-new',
       region: 'us-east-1',
       accessKeyId: config.awsKey,
       secretAccessKey: config.awsSecret
@@ -134,7 +134,7 @@ class Login extends Component {
 
     return (
 
-      <Card 
+      <Card
         id="login-card">
         <Modal id='new-user-modal' trigger={
           <Row>
