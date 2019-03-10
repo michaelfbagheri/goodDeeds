@@ -1,12 +1,13 @@
 const path = require("path");
-const router = require("express").Router();
+const express = require("express");
+const router = express.Router();
 const apiRoutes = require("./api");
 
 // API Routes
 router.use("/api", apiRoutes);
 
 // If no API routes are hit, send the React app
-app.use(express.static(path.join(__dirname, "../client/build")))
+router.use(express.static(path.join(__dirname, "../client/build")))
 
 router.use((err, req, res, next) => {
   err.statusCode = err.statusCode || 500
