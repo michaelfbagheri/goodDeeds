@@ -9,8 +9,10 @@
     "start:dev": "nodemon server.js | npm run client",
     "client": "cd client && npm run start",
     "seed": "node seed/seedDB.js",
-    "_install": "cd client && npm install",
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+    "_install": "cd client && npm install && npm run build",
+    "build-react-bundles": "npm run _install",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build",
+    "deploy": "eb deploy"
   },
   "repository": {
     "type": "git",
